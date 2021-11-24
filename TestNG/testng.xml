@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="plus" value="+"></parameter>
+  <parameter name="sub" value="–"></parameter>
+  <parameter name="multiplication" value="×"></parameter>
+  <parameter name="division" value="/"></parameter>
+  <parameter name="n1" value="5"></parameter>
+  <parameter name="n2" value="6"></parameter>
+    <classes>
+      <class name="calculator.TestCalculator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

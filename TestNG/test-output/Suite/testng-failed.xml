@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="division" value="/"/>
+    <parameter name="sub" value="–"/>
+    <parameter name="n1" value="234823"/>
+    <parameter name="n2" value="-23094823"/>
+    <parameter name="multiplication" value="×"/>
+    <parameter name="plus" value="+"/>
+    <classes>
+      <class name="Calculator.TestCalculator">
+        <methods>
+          <include name="multiplication" invocation-numbers="0"/>
+          <include name="sub" invocation-numbers="0"/>
+          <include name="add" invocation-numbers="0"/>
+          <include name="division" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Calculator.TestCalculator -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
